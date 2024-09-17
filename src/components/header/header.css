@@ -1,0 +1,11 @@
+div.header-content {
+  background-color: rgb(51, 182, 103, 1);
+}
+.header-content > h1 {
+  padding-block: 25px;
+  color: white;
+  text-align: center;
+  font-weight: 900;
+  margin: 0;
+  font-size: 1.375em;
+}

@@ -1,10 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Projeto HTML com Vite</title>
+    <title>SEVN ESPORTES</title>
+
     <link rel="stylesheet" href="./src/components/header/header.css" />
+    <link
+      rel="stylesheet"
+      href="./src/components/roundGamesTable/roundGamesTable.css"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
@@ -16,5 +20,13 @@
     <script type="module" src="/@vite/client"></script>
     <script type="module" src="/src/main.ts"></script>
     <script type="module" src="/src/components/header/header.ts"></script>
+    <script
+      type="module"
+      src="/src/components/roundGamesTable/roundGamesTable.ts"
+    ></script>
+    <div id="content-container">
+      <p>Confira todas as rodadas do nosso campeonato fictício!</p>
+      <div id="round-games-container"></div>
+    </div>
   </body>
 </html>

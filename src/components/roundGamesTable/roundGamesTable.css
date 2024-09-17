@@ -1,0 +1,78 @@
+.round-games-content {
+  border: 1px;
+  border-color: rgba(221, 221, 221, 1);
+  display: flex;
+  border-style: solid;
+  padding-block: 24px;
+  padding-inline: 21px;
+  border-radius: 10px;
+  flex-direction: column;
+}
+div.round-games-content > div.filter {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+div.round-games-content > div > div {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.change-round-button {
+  background-color: rgba(51, 182, 103, 1);
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#round-matches-container > .match-line {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px;
+  border-bottom-style: solid;
+  padding-bottom: 16px;
+  border-bottom-color: rgba(221, 221, 221, 1);
+}
+#round-matches-container > .match-line:last-child {
+  border-bottom: none;
+}
+.team-home-name {
+  margin-left: 10px;
+  margin-right: 34px;
+}
+.team-away-name {
+  margin-left: 34px;
+  margin-right: 10px;
+}
+.scoreboard {
+  gap: 14px;
+  display: flex;
+}
+#round-matches-container {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 52px;
+}
+.change-round-button:disabled {
+  background-color: #ccc;
+  color: #666;
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+#round-games-container {
+  margin-top: 80px;
+}
+#round {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 14.52px;
+}
+#game-rounds-title {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 19.36px;
+}
