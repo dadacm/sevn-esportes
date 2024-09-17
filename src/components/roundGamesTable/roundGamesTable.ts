@@ -18,7 +18,7 @@ const renderRoundGames = (roundGames: RoundGameType[]): string => {
                   <span class="team-home-name">${game.team_home_name}</span>
                   <div class="scoreboard">
                     <span>${game.team_home_score}</span>
-                    <span >X</span>
+                    <img src="../../../assets/scoreboard-x.svg"></img>
                     <span>${game.team_away_score}</span>
                   </div>
                   <span class="team-away-name">${game.team_away_name}</span>

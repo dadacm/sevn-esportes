@@ -51,6 +51,7 @@ div.round-games-content > div > div {
   gap: 14px;
   display: flex;
 }
+
 #round-matches-container {
   display: flex;
   flex-direction: column;
