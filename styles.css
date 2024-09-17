@@ -1,9 +1,14 @@
 body {
-  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
   background-color: #f0f0f0;
-  padding: 20px;
+  margin: 0px !important;
+  padding: 0;
+  gap: 0px;
+  font-family: "Inter";
+  flex: 1;
 }
 
-h1 {
-  color: #333;
+html {
+  display: flex;
 }

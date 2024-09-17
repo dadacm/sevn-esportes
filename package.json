@@ -2,11 +2,11 @@
   "name": "sevn-esportes",
   "version": "1.0.0",
   "main": "index.js",
- "scripts": {
-  "dev": "vite",
-  "build": "tsc && vite build",
-  "serve": "vite preview"
-},
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "serve": "vite preview"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",

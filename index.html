@@ -4,10 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Projeto HTML com Vite</title>
-    <link rel="stylesheet" href="/src/styles.css" />
+    <link rel="stylesheet" href="./src/components/header/header.css" />
+    <link rel="stylesheet" href="./styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <h1>Hello Vite + HTML</h1>
+    <div id="header-container"></div>
+    <script type="module" src="/@vite/client"></script>
     <script type="module" src="/src/main.ts"></script>
+    <script type="module" src="/src/components/header/header.ts"></script>
   </body>
 </html>
