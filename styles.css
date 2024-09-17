@@ -20,10 +20,23 @@ body {
 html {
   display: flex;
 }
-#content-container > p {
+#content-container > div > div > p {
   font-weight: 400;
   font-size: 1.625rem;
   line-height: 31.47px;
   color: rgba(0, 0, 0, 1);
   text-align: center;
+}
+#content-container > div {
+  display: flex;
+}
+#content-container > div > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#default-shield {
+  position: absolute;
+  top: 46%;
+  left: 25%;
 }

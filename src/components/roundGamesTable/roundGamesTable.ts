@@ -1,3 +1,4 @@
+import { loadHtml } from "../../utils/loadHtml";
 import { getRoundGames } from "../../utils/getRoundGames";
 
 type RoundGameType = {
@@ -28,12 +29,10 @@ const renderRoundGames = (roundGames: RoundGameType[]): string => {
 };
 
 const loadRoundGames = async () => {
-  const response = await fetch(
-    "./src/components/roundGamesTable/roundGamesTable.html"
+  await loadHtml(
+    "./src/components/roundGamesTable/roundGamesTable.html",
+    "round-games-container"
   );
-  const roundGamesHtml = await response.text();
-
-  document.getElementById("round-games-container")!.innerHTML = roundGamesHtml;
 
   const roundElement = document.getElementById("round");
   const increaseBtn = document.getElementById(

@@ -65,6 +65,7 @@ div.round-games-content > div > div {
 }
 #round-games-container {
   margin-top: 80px;
+  width: fit-content;
 }
 #round {
   font-weight: 700;

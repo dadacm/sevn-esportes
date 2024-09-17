@@ -1,7 +1,7 @@
+import { loadHtml } from "../../utils/loadHtml";
+
 const loadHeader = async () => {
-  const response = await fetch("./src/components/header/header.html");
-  const headerHtml = await response.text();
-  document.getElementById("header-container")!.innerHTML = headerHtml;
+  await loadHtml("./src/components/header/header.html", "header-container");
 };
 
 loadHeader();
