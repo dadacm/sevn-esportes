@@ -10,7 +10,7 @@ type RoundGameType = {
   team_away_score: number;
 };
 
-const renderRoundGames = (roundGames: RoundGameType[]): string => {
+const formatRoundGames = (roundGames: RoundGameType[]): string => {
   return roundGames
     .map((game) => {
       return `<div class="match-line">
@@ -46,7 +46,7 @@ const loadRoundGames = async () => {
   const roundGamesArray = await getRoundGames();
 
   const updateRoundGames = () => {
-    const formatedRoundGamesHtml = renderRoundGames(
+    const formatedRoundGamesHtml = formatRoundGames(
       roundGamesArray[roundNumber - 1].games
     );
     document.getElementById("round-matches-container")!.innerHTML =
